@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: bisque;
+    color: #373737;
+    padding: 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button{
+    padding: 0 20px;
+    box-shadow:0 2px 4px black;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 190px;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(73, 194, 143, 1)) padding-box,
+    linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
+    border: 1px solid transparent;
+
+    
+    transition: box-shadow 250ms;
+}
+.button:hover{/*.icon:hover*/
+    box-shadow:0 5px 10px rgb(0, 0, 0);
+}
+
+.editTextContainer{
+    margin:10px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: left;
+    padding:10px 15px;
+    width: 400px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(48, 56, 53, 1),rgba(48, 56, 53, 1)) padding-box,
+    linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.editTextContent{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: transparent;
+    margin: 0 0 0 15px;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon{
+    padding: 0 5px;
+    box-shadow:0 2px 4px black;
+    margin: 10px;
+    width: 27.5px;
+    height: 27.5px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: linear-gradient(#303835,#303835) padding-box,
+    linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
+    transition: box-shadow 250ms;
+}
+.icon:hover{/*.button:hover*/
+    box-shadow:0 5px 10px rgb(0, 0, 0);
+}
+a{
+    color: rgb(118, 201, 173);
+    text-decoration:none
+}
+a:visited{
+    color: rgb(99, 207, 211);
+}
+.darklink{
+    color: rgb(63, 114, 97);
+}
+.darklink:visited{
+    color: rgb(54, 102, 104);
+}
+p, ul{
+    text-align: left;
+}
+
+.lart{
+    left: 0;
+    position: absolute;
+    transform:translateY(-125px);
+}
+.rart{
+    right: 0;
+    position: absolute;
+    transform: translateY(-165px);
+}
