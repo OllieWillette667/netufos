@@ -9,7 +9,7 @@ We always welcome any contribution to our common cause. Together we facilitate t
 
 Tools used, programming languages: Java, JavaScript (jQuery), HTML/CSS, Markdown (Documentation), Spring (Boot,MVC,Security), Redis (Jedis).
 
-If you'd like to countertribute to our platform, be sure to join the Telegram community https://t.me/netufos/.
+If you'd like to contribute to our platform, be sure to join the Telegram community https://t.me/netufos/.
 
 ### Terms of use of your contribution (code)
 By submitting a pull request to this repository, you agree that your contribution (code) may be used for any purpose, including, but not limited to, its use in commercial products or its distribution under an open source license.
