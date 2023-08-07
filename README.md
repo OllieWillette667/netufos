@@ -4,6 +4,9 @@ By submitting a merge request, you agree to the terms of use of your contributio
 # Netufos
 First and only an open source school online platform developed by the school society. Sometimes (during the operation of the server (computer)) is available at http://netufos.duckdns.org/. Attention: same "HTTP" protocol.
 
+### Themes
+But you can see a preliminary design defining the basic styling statements at. But that's not all, as several other different site themes are planned.
+
 ## Contributing
 We always welcome any contribution to our common cause. Together we facilitate the school routine and help increase the productivity of school learning. We invite you to take part in the development of the school future.
 
