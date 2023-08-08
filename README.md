@@ -1,5 +1,5 @@
 ### Attention!
-By submitting a merge request, you agree to the terms of use of your contribution (code) set out below.
+By submitting a pull request, you agree to the terms of use of your contribution (code) set out below.
 
 # Netufos
 First and only an open source school online platform developed by the school society. Sometimes (during the operation of the server (computer)) is available at http://netufos.duckdns.org/. Attention: same "HTTP" protocol.
