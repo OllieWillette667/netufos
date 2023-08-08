@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.vladceresna.netufos.NetufosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-07T07:33:19" hostname="DESKTOP-8IB144U" time="4.365">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.vladceresna.netufos.NetufosApplicationTests" time="4.365"/>
+  <system-out><![CDATA[10:33:06.042 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vladceresna.netufos.NetufosApplicationTests]: NetufosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:33:06.580 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vladceresna.netufos.NetufosApplication for test class com.vladceresna.netufos.NetufosApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-08-07T10:33:09.285+03:00  WARN 11200 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Hp%20255%20G7/.gradle/caches/modules-2/files-2.1/org.json/json/20211205/47032dcf2f69880f07dab3dc60b4b0ad97318308/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Hp%20255%20G7/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-08-07T10:33:09.459+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Starting NetufosApplicationTests using Java 17.0.7 with PID 11200 (started by Hp 255 G7 in D:\Vova\Developed\Java\SpringBoot\Netufos)
+2023-08-07T10:33:09.464+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-08-07T10:33:16.864+03:00  INFO 11200 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7d9b41, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25be445f, org.springframework.security.web.context.SecurityContextHolderFilter@7ef8eda7, org.springframework.security.web.header.HeaderWriterFilter@19bedeb8, org.springframework.security.web.authentication.logout.LogoutFilter@7edb6fca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@609319c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29fe4840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6975fb1c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@716185fe, org.springframework.security.web.access.ExceptionTranslationFilter@7ba93755, org.springframework.security.web.access.intercept.AuthorizationFilter@7ebe2e47]
+2023-08-07T10:33:18.856+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Started NetufosApplicationTests in 10.849 seconds (process running for 18.479)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

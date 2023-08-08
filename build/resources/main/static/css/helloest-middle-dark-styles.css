@@ -1,0 +1,80 @@
+body{
+    margin: auto;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+nav{
+    width:100%;
+    display: flex;
+    color: white;
+    background-color: rgba(48, 56, 53, 1);
+    padding: 0 0px;
+    position: fixed;
+    z-index: 1000;
+    box-shadow:0 1px 8px black;
+}
+header{
+    background-size: 100% 100%;
+    background: no-repeat;
+    background-position: center;
+    background-image: url("/images/Group 121header-art.svg");
+    color: white;
+    height: 400px;
+}
+#logoname{
+    translate: 0 120px;
+    font-size: 60px;
+    font-weight: 700;
+}
+#logodevize{
+    translate: 0 120px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.button{
+    border-radius: 10px;
+    height: 30px;
+    width: auto;
+}
+#butreg{
+    border: none;
+}
+#butlog{
+    border: 1px solid transparent;
+    background: linear-gradient(#303835,#303835) padding-box,
+    linear-gradient(90deg,rgba(56, 243, 255, 1),rgba(57, 146, 108, 1)) border-box;
+}
+h1{
+    margin:auto;
+}
+#space{
+    width: 100%;
+}
+.logo{
+    margin: auto;
+    margin-right: 10px;
+    width: 40px;
+    height:40px;
+}
+section{
+    padding: 20px 20%;
+}
+main{   
+    width: fit-content;
+    color: black;
+}
+
+footer{
+    color: white;
+    background-color: rgba(48, 56, 53, 1);
+    padding: 25px 20px;
+}
+footer div{
+    margin: 10px 0;
+}
+#win-sec{
+    background: linear-gradient(90deg, rgba(168, 237, 234, 0.69) 0%, rgba(56, 243, 255, 0.69) 100%);
+}
+#wnu-sec{
+    background: linear-gradient(90deg, rgba(144, 245, 215, 1) 0%, rgba(52, 208, 161, 1) 100%);
+}
