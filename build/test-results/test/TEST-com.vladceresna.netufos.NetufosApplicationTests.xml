@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vladceresna.netufos.NetufosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-07T07:33:19" hostname="DESKTOP-8IB144U" time="4.365">
+<testsuite name="com.vladceresna.netufos.NetufosApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-08-09T10:48:45" hostname="DESKTOP-8IB144U" time="4.563">
   <properties/>
-  <testcase name="contextLoads()" classname="com.vladceresna.netufos.NetufosApplicationTests" time="4.365"/>
-  <system-out><![CDATA[10:33:06.042 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vladceresna.netufos.NetufosApplicationTests]: NetufosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:33:06.580 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vladceresna.netufos.NetufosApplication for test class com.vladceresna.netufos.NetufosApplicationTests
+  <testcase name="contextLoads()" classname="com.vladceresna.netufos.NetufosApplicationTests" time="4.563"/>
+  <system-out><![CDATA[13:48:32.733 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.vladceresna.netufos.NetufosApplicationTests]: NetufosApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:48:33.997 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.vladceresna.netufos.NetufosApplication for test class com.vladceresna.netufos.NetufosApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,7 +13,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.1.0)
 
-2023-08-07T10:33:09.285+03:00  WARN 11200 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+2023-08-09T13:48:36.244+03:00  WARN 15720 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -22,10 +22,10 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2023-08-07T10:33:09.459+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Starting NetufosApplicationTests using Java 17.0.7 with PID 11200 (started by Hp 255 G7 in D:\Vova\Developed\Java\SpringBoot\Netufos)
-2023-08-07T10:33:09.464+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2023-08-07T10:33:16.864+03:00  INFO 11200 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7d9b41, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25be445f, org.springframework.security.web.context.SecurityContextHolderFilter@7ef8eda7, org.springframework.security.web.header.HeaderWriterFilter@19bedeb8, org.springframework.security.web.authentication.logout.LogoutFilter@7edb6fca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@609319c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29fe4840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6975fb1c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@716185fe, org.springframework.security.web.access.ExceptionTranslationFilter@7ba93755, org.springframework.security.web.access.intercept.AuthorizationFilter@7ebe2e47]
-2023-08-07T10:33:18.856+03:00  INFO 11200 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Started NetufosApplicationTests in 10.849 seconds (process running for 18.479)
+2023-08-09T13:48:36.359+03:00  INFO 15720 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Starting NetufosApplicationTests using Java 17.0.7 with PID 15720 (started by Hp 255 G7 in D:\Vova\Developed\Java\SpringBoot\Netufos)
+2023-08-09T13:48:36.362+03:00  INFO 15720 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2023-08-09T13:48:43.180+03:00  INFO 15720 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7d9b41, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25be445f, org.springframework.security.web.context.SecurityContextHolderFilter@7ef8eda7, org.springframework.security.web.header.HeaderWriterFilter@19bedeb8, org.springframework.security.web.authentication.logout.LogoutFilter@7edb6fca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@609319c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29fe4840, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6975fb1c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@716185fe, org.springframework.security.web.access.ExceptionTranslationFilter@7ba93755, org.springframework.security.web.access.intercept.AuthorizationFilter@7ebe2e47]
+2023-08-09T13:48:45.292+03:00  INFO 15720 --- [    Test worker] c.v.netufos.NetufosApplicationTests      : Started NetufosApplicationTests in 10.365 seconds (process running for 18.586)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
