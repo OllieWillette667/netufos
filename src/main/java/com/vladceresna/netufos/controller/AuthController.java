@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPooled;
 import redis.clients.jedis.json.Path2;
 
@@ -48,7 +49,8 @@ public class AuthController {
         }
 
         System.out.println("ebwwwwwwww");
-        j.close();
+        Jedis jedis = new Jedis();
+        jedis.save();
         return "login";
     }
 

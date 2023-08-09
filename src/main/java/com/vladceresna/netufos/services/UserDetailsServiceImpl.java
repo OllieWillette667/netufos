@@ -7,6 +7,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.JedisPooled;
+
+import java.util.HashSet;
 import java.util.Set;
 
 @Service("userDetailsServiceImpl")
@@ -28,10 +30,11 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             }
         }
         j.close();
-        if (!finded){
-            System.out.println("user not found");
-            throw new UsernameNotFoundException("User not found");
+
+        if(user==null){
+            throw new UsernameNotFoundException("user not found");
         }
+
         System.out.println("user found");
         return SecurityUser.fromUser(user);
     }

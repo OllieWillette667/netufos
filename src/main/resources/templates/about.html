@@ -16,10 +16,10 @@
     <img class="logo" src="/images/NetufosLogo.png"/>
     <h1>Netufos</h1>
     <div id="space"></div>
-    <form action="@{/login}" method="get">
+    <form th:action="@{/login}" method="get">
         <button id="butlog" class="button">Увійти</button>
     </form>
-    <form action="@{/registration}" method="get">
+    <form th:action="@{/registration}" method="get">
         <button id="butreg" class="button">Зареєструватися</button>
     </form>
     <img src="/images/menu_icon.png" id="menu" class="icon">
