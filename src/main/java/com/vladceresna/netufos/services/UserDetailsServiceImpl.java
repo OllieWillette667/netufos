@@ -30,11 +30,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
             }
         }
         j.close();
-
-        if(user==null){
+        if(user==null) {
             throw new UsernameNotFoundException("user not found");
         }
-
         System.out.println("user found");
         return SecurityUser.fromUser(user);
     }
