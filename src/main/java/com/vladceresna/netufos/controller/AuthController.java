@@ -22,7 +22,7 @@ public class AuthController {
     //login autocreate! Cxi-tie estas registration mappings
 
     @GetMapping("/registration")
-    public String registrationPage(Model model){
+    public String getRegistration(Model model){
         System.out.println("opimpovee");
         return "registration";
     }

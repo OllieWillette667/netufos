@@ -9,7 +9,7 @@ body{
     font-size: 20px;
 }
 
-.button{
+.bigbutton, .button{
     padding: 0 20px;
     box-shadow:0 2px 4px black;
     margin: 10px;
@@ -21,22 +21,30 @@ body{
     border-radius: 20px;
     background: linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(73, 194, 143, 1)) padding-box,
     linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
-    border: 1px solid transparent;
-
-    
+    border: 1px solid transparent;  
     transition: box-shadow 250ms;
 }
-.button:hover{/*.icon:hover*/
+.icon{
+    padding: 0 5px;
+    box-shadow:0 2px 4px black;
+    margin: 10px;
+    width: 27.5px;
+    height: 27.5px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: linear-gradient(#303835,#303835) padding-box,
+    linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
+    transition: box-shadow 250ms;
+}
+.bigbutton:hover, .button:hover, .icon:hover{
     box-shadow:0 5px 10px rgb(0, 0, 0);
 }
 
 .editTextContainer{
-    margin:10px;
     display: inline-flex;
     justify-content: center;
     text-align: left;
     padding:10px 15px;
-    width: 400px;
     border-radius: 20px;
     background: linear-gradient(rgba(48, 56, 53, 1),rgba(48, 56, 53, 1)) padding-box,
     linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
@@ -57,21 +65,7 @@ body{
     height: 100px;
     border-radius: 50%;
 }
-.icon{
-    padding: 0 5px;
-    box-shadow:0 2px 4px black;
-    margin: 10px;
-    width: 27.5px;
-    height: 27.5px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background: linear-gradient(#303835,#303835) padding-box,
-    linear-gradient(90deg,rgba(57, 146, 108, 1), rgba(56, 243, 255, 1)) border-box;
-    transition: box-shadow 250ms;
-}
-.icon:hover{/*.button:hover*/
-    box-shadow:0 5px 10px rgb(0, 0, 0);
-}
+
 a{
     color: rgb(118, 201, 173);
     text-decoration:none
@@ -87,6 +81,10 @@ a:visited{
 }
 p, ul{
     text-align: left;
+}
+.space{
+    width: 100%;
+    height: 100%;    
 }
 
 .lart{

@@ -4,29 +4,40 @@
     <link rel="icon" href="/images/NetufosLogosmall.png" type="image/png">
     <title>Log in Netufos</title>
     <link href="/css/styles.css" rel="stylesheet" />
+    <link href="/css/auth-middle-dark-styles.css" rel="stylesheet" />
 </head>
 <body>
-    <img class="logo" src="/images/NetufosLogo.png" alt="logo"><br>
-    <h1>Вхід</h1>
-<div th:if="${param.error}">
-    Invalid username and password.
-</div>
-<div th:if="${param.logout}">
-    You have been logged out.
-</div>
-<form action="/login" method="post">
-    <div class="editTextContainer">
-            <img src="/images/image 2mail.svg"/>
-            <input class="editTextContent" type="text" name="username" placeholder="Пошта"/>
+
+<main>
+    <nav>
+        <img class="logo" src="/images/NetufosLogo.png"/>
+        <h1>Netufos</h1>
+        <div class="space"></div>
+        <form th:action="@{/registration}" method="get">
+            <button id="butreg" class="button">Реєстрація</button>
+        </form>
+        <img src="/images/menu_icon.png" id="menu" class="icon">
+    </nav>
+    <div id="mainContainer">
+        <div th:if="${param.error}">
+            Invalid username and password.
         </div>
-    <br><div class="editTextContainer">
-        <img src="/images/image 2key.svg"/>
-        <input class="editTextContent" type="password" name="password" placeholder="Пароль"/>
+        <div th:if="${param.logout}">
+            You have been logged out.
         </div>
-    <br><button class="button">Увійти</button>
-</form>
-<form action="/registration">
-    <button class="button">Реєстрація</button>
-</form>
+        <form action="/login" method="post">
+            <div class="editTextContainer">
+                <img src="/images/image 2mail.svg"/>
+                <input class="editTextContent" type="text" name="username" placeholder="Пошта"/>
+            </div>
+            <br><div class="editTextContainer">
+                <img src="/images/image 2key.svg"/>
+                <input class="editTextContent" type="password" name="password" placeholder="Пароль"/>
+            </div>
+            
+            <br><button class="bigbutton" id="submitbut">Увійти</button>
+        </form>
+    </div>
+</main>
 </body>
 </html>

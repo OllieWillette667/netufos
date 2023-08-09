@@ -11,16 +11,13 @@ public class MainController {
     public String getMain(Model model){
         try {
             if (SecurityContextHolder.getContext().getAuthentication().isAuthenticated()) {
-                System.out.println("cabineto");
                 return "redirect:cabineto";
             }else {
-                System.out.println("about");
                 return "redirect:about";
             }
         }catch (Exception e){
-            System.out.println(e.getMessage());
+        //    System.out.println("MainAuthenticationException");
         }
-        System.out.println("about");
         return "redirect:about";
     }
     @GetMapping("/about")

@@ -39,7 +39,7 @@ public class SecurityConfig {
                         .alwaysRemember(true)
                 )
                 .authorizeHttpRequests((requests) -> requests
-                        .requestMatchers("/","/about","/registration","/cabineto",    "/css/**","/js/**","/images/**")
+                        .requestMatchers("/","/about","/registration",    "/css/**","/js/**","/images/**")
                         .permitAll()
                         .anyRequest().authenticated()
                 )
