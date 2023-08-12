@@ -32,6 +32,8 @@
 ### Design and Themes
 But you can see a [preliminary design](https://www.figma.com/file/sxK69I10e0Tnh0DnIKTsXM/Netufos?type=design&node-id=5%3A2&mode=design&t=tNkkMdT9ECvex9g1-1/) defining the basic styling statements.
 
+![Preview](https://github.com/vladceresna/netufos/blob/main/.github/my_media/Page%201%20-%20Netufos%20-%20Figma%202023-08-12%2016-36-39_Trim.gif)
+
 But that's not all, as several other different site **themes** are planned.
 
 ## Contributing
