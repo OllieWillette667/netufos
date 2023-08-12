@@ -1,5 +1,7 @@
-### Attention!
-By submitting a pull request, you agree to the terms of use of your contribution (code) set out below.
+##### Attention!
+###### By submitting a pull request, you agree to the terms of use of your contribution (code) set out below.
+
+![This is Netufos](https://github.com/vladceresna/netufos/blob/main/.github/my_media/Frame%201netufos-banner.png?raw=true)
 
 # Netufos
 **First and only** an **open source school online platform** developed by the school society. Sometimes (during the operation of the server (computer)) is available at http://netufos.duckdns.org/. Attention: same "HTTP" protocol.
