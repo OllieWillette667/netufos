@@ -24,6 +24,8 @@ By submitting a pull request, you agree to the terms of use of your contribution
     - [ ] Notifications
     - [ ] Manage school (for Director and Manager)
 - [ ] Multitheming
+- [ ] Meetings (Video and Audio Calls)
+- [ ] AI assistant
 
 ### Design and Themes
 But you can see a [preliminary design](https://www.figma.com/file/sxK69I10e0Tnh0DnIKTsXM/Netufos?type=design&node-id=5%3A2&mode=design&t=tNkkMdT9ECvex9g1-1/) defining the basic styling statements.
